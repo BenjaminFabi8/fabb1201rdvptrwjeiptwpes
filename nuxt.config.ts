@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -10,6 +9,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/content', "nuxt-icon"],
+  modules: ['@nuxt/content', "nuxt-icon", "nuxt-compress"],
   compatibilityDate: "2024-12-18",
 });
